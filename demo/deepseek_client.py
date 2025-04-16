@@ -178,7 +178,7 @@ class DeepSeekClient:
 # 使用示例
 if __name__ == "__main__":
     # 请替换为您的API密钥或设置环境变量
-    client = DeepSeekClient(api_key="your-deepseek-api-key-here")
+    client = DeepSeekClient(api_key="sk-d18213c0b1744cfcbf775402b032a412")
     
     # 聊天完成示例
     messages = [

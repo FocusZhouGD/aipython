@@ -22,7 +22,7 @@ class OpenAIClient:
         self.client = OpenAI(api_key=self.api_key)
     
     def chat_completion(
-        self, 
+        self,
         messages: List[Dict[str, str]], 
         model: str = "gpt-3.5-turbo",
         temperature: float = 0.7,
@@ -38,7 +38,6 @@ class OpenAIClient:
             temperature: 温度参数，控制输出的随机性
             max_tokens: 最大生成的token数量
             **kwargs: 其他参数
-            
         Returns:
             API响应结果
         """
